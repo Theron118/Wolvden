@@ -1,0 +1,30 @@
+/*
+This CSS should change the leaders and fetured wolves titles into The Great and Second in Command
+Author: Theron (#54289) (username on wolvden)
+*/
+
+.lblPackLeaderTitle {
+  visibility: hidden;
+  position: relative;
+}
+
+.lblPackLeaderTitle:after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "The Great";
+}
+
+.lblFeaturedWolfTitle {
+  visibility: hidden;
+  position: relative;
+}
+
+.lblFeaturedWolfTitle:after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Second in Command";
+}
