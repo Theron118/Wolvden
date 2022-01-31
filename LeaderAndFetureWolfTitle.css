@@ -3,12 +3,12 @@ This CSS should change the leaders and fetured wolves titles into The Great and 
 Author: Theron (#54289) (username on wolvden)
 */
 
-.lblPackLeaderTitle {
+#lblPackLeaderTitle {
   visibility: hidden;
   position: relative;
 }
 
-.lblPackLeaderTitle:after {
+#lblPackLeaderTitle:after {
   visibility: visible;
   position: absolute;
   top: 0;
@@ -16,12 +16,12 @@ Author: Theron (#54289) (username on wolvden)
   content: "The Great";
 }
 
-.lblFeaturedWolfTitle {
+#lblFeaturedWolfTitle {
   visibility: hidden;
   position: relative;
 }
 
-.lblFeaturedWolfTitle:after {
+#lblFeaturedWolfTitle:after {
   visibility: visible;
   position: absolute;
   top: 0;
